@@ -4,24 +4,26 @@
 <body><header><div class="w"><a href="../../"><img src="../icon.png" alt=""></a><a href="../../"><b>Datria GPS Camera</b></a></div></header>
 <main class="w"><nav class="lang"><a href="#id">Bahasa Indonesia</a></nav>
 <h1>Datria GPS Camera – Privacy Policy</h1>
-<p><em>Last updated: 14 November 2026</em></p>
+<p><em>Last updated: 26 November 2026</em></p>
 <p>Datria GPS Camera ("the app") is developed and published by <strong>Damatria Developer</strong>, an individual developer. Contact: <strong>damatria.dev@gmail.com</strong>.</p>
 <h2>Summary</h2>
-<p class="ringkas">Datria GPS Camera takes photos stamped with the date, time, and location. Photos and settings stay <strong>on your device</strong>. There is no account, no advertising, no analytics, and no tracking. The developer never receives your photos or location.</p>
+<p class="ringkas">Datria GPS Camera takes photos and stamped videos with the date, time, and location. Photos, videos, projects, and settings stay <strong>on your device</strong>. There is no account, no advertising, no analytics, and no tracking. The developer never receives your photos, videos, audio, or location.</p>
 <h2>Data the app uses</h2>
 <table>
 <thead><tr><th>Data</th><th>Why it is used</th><th>Where it is stored</th></tr></thead>
 <tbody>
-<tr><td>Camera</td><td>To take photos. The app does not record audio or video</td><td>Photos are saved on the device</td></tr>
-<tr><td>Precise location (GPS)</td><td>To print coordinates, altitude, accuracy, and direction on the photo stamp and in the photo's metadata (EXIF). Location is used only while the app is open</td><td>On the device only, inside the photos you take</td></tr>
-<tr><td>Photos</td><td>Stamped photos are saved to <code>Pictures/Datria GPS Camera</code>; if you turn on "keep original", an unstamped copy is saved in its <code>Asli</code> subfolder. Photos contain location metadata (EXIF), and other apps with photo access can read them</td><td>In your device gallery</td></tr>
-<tr><td>Text and images you add (notes, project name, the logo image you pick for the stamp) and your settings</td><td>To print on the stamp and remember your choices</td><td>In the app's private storage on the device</td></tr>
+<tr><td>Camera</td><td>To take photos and record stamped video (Pro feature)</td><td>Saved on the device only</td></tr>
+<tr><td>Microphone (<code>RECORD_AUDIO</code>)</td><td>Optional. Used only when you record stamped video (Pro feature) to capture audio with the video. If denied, video can still be recorded without sound</td><td>Saved locally inside the video file in <code>Movies/Datria GPS Camera</code>; never sent to any server</td></tr>
+<tr><td>Precise location (GPS)</td><td>To print coordinates, altitude, accuracy, and direction on the photo/video stamp and in the photo's metadata (EXIF), and to detect mock locations (Fake GPS). Location is used only while the app is open</td><td>On the device only, inside the media you capture</td></tr>
+<tr><td>Photos &amp; videos</td><td>Stamped photos are saved to <code>Pictures/Datria GPS Camera</code> (and optional unstamped originals to <code>Asli</code>); stamped videos are saved to <code>Movies/Datria GPS Camera</code>. With Pro, photos are signed locally using an Android Keystore ECDSA key (stored in EXIF) so edits can be detected offline. Exports (CSV, GeoJSON, KML, PDF) are generated locally on your device</td><td>In your device gallery and temporary cache when exporting</td></tr>
+<tr><td>Text and images you add (notes, projects, officer/company name, logo image) and your settings</td><td>To print on the stamp, include in PDF report headers, and remember your choices</td><td>In the app's private storage on the device</td></tr>
 </tbody></table>
 <h2>Network connections</h2>
-<p>The app makes no connection on its own except the ones listed here. Neither of them receives your photos.</p>
+<p>The app makes no connection on its own except the ones listed here. None of them receives your photos, videos, or audio.</p>
 <ul>
 <li><strong>Address on the stamp.</strong> If the address line is on, the app asks Android's built-in Geocoder to turn your coordinates into a street address. On most phones this service is provided by Google, which receives the coordinates under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. Turn off the address line to avoid this.</li>
-<li><strong>Mini map on the stamp.</strong> If the map is on, the app downloads street-map tiles for the area around you from <a href="https://openfreemap.org">OpenFreeMap</a> (data © OpenStreetMap contributors). The request reveals your IP address and the approximate map area, as with any web map. Turn off the map to avoid this.</li>
+<li><strong>Mini map &amp; PDF report map.</strong> If the map is on (or when generating a PDF photo report while online), the app downloads street-map tiles for the area around your coordinates from <a href="https://openfreemap.org">OpenFreeMap</a> (data © OpenStreetMap contributors). The request reveals your IP address and the approximate map area, as with any web map. Turn off the mini map to avoid this.</li>
+<li><strong>Pro purchase (Google Play Billing).</strong> If you unlock or restore Datria GPS Camera Pro (one-time purchase), payment and purchase status are handled directly by Google Play under <a href="https://policies.google.com/privacy">Google's privacy policy</a>. The developer never sees your payment details.</li>
 </ul>
 <h2>Sharing</h2>
 <p>The app never shares photos on its own. When you tap <strong>Share</strong>, the Android share menu opens and you choose where the photo goes. Shared photos keep their stamp and location metadata, so share them only with people you trust.</p>
@@ -35,21 +37,23 @@
 <p>Questions about this policy: <strong>damatria.dev@gmail.com</strong>.</p>
 
 <hr><div id="id" lang="id"><h1>Datria GPS Camera – Kebijakan Privasi (Bahasa Indonesia)</h1>
-<p><em>Terakhir diperbarui: 14 November 2026</em></p>
+<p><em>Terakhir diperbarui: 26 November 2026</em></p>
 <p>Datria GPS Camera ("aplikasi") dikembangkan dan diterbitkan oleh <strong>Damatria Developer</strong>, pengembang perorangan. Kontak: <strong>damatria.dev@gmail.com</strong>.</p>
-<p class="ringkas">Datria GPS Camera mengambil foto bercap tanggal, jam, dan lokasi. Foto dan pengaturan tetap <strong>di HP Anda</strong>. Tidak ada akun, iklan, analitik, atau pelacakan. Pengembang tidak pernah menerima foto atau lokasi Anda.</p>
+<p class="ringkas">Datria GPS Camera mengambil foto dan video bercap tanggal, jam, dan lokasi. Foto, video, proyek, dan pengaturan tetap <strong>di HP Anda</strong>. Tidak ada akun, iklan, analitik, atau pelacakan. Pengembang tidak pernah menerima foto, video, suara, atau lokasi Anda.</p>
 <h2>Data yang dipakai aplikasi</h2>
 <ul>
-<li><strong>Kamera:</strong> untuk mengambil foto. Aplikasi tidak merekam suara atau video.</li>
-<li><strong>Lokasi akurat (GPS):</strong> untuk mencetak koordinat, ketinggian, akurasi, dan arah pada cap foto serta metadata foto (EXIF). Lokasi hanya dipakai saat aplikasi terbuka.</li>
-<li><strong>Foto:</strong> foto bercap disimpan di <code>Pictures/Datria GPS Camera</code>; bila "simpan asli" dinyalakan, salinan tanpa cap disimpan di subfolder <code>Asli</code>. Foto memuat metadata lokasi (EXIF) dan bisa dibaca aplikasi lain yang punya akses foto.</li>
-<li><strong>Teks dan gambar yang Anda tambahkan</strong> (catatan, nama proyek, gambar logo cap) dan pengaturan: disimpan di penyimpanan privat aplikasi di HP.</li>
+<li><strong>Kamera:</strong> untuk mengambil foto dan merekam video bercap (fitur Pro).</li>
+<li><strong>Mikrofon (<code>RECORD_AUDIO</code>):</strong> opsional, hanya digunakan saat Anda merekam video bercap (fitur Pro) untuk merekam suara bersama video. Suara disimpan lokal di dalam berkas video di <code>Movies/Datria GPS Camera</code> dan tidak pernah dikirim ke server mana pun. Jika ditolak, video tetap direkam tanpa suara.</li>
+<li><strong>Lokasi akurat (GPS):</strong> untuk mencetak koordinat, ketinggian, akurasi, dan arah pada cap foto/video serta metadata EXIF, serta mendeteksi lokasi palsu (Fake GPS). Lokasi hanya dipakai saat aplikasi terbuka.</li>
+<li><strong>Foto &amp; video:</strong> foto bercap disimpan di <code>Pictures/Datria GPS Camera</code> (salinan asli opsional di <code>Asli</code>); video bercap disimpan di <code>Movies/Datria GPS Camera</code>. Pada versi Pro, foto ditandatangani secara lokal memakai kunci ECDSA Android Keystore (disimpan di EXIF) agar suntingan dapat diperiksa secara offline. Ekspor (CSV, GeoJSON, KML, PDF) dibuat sepenuhnya lokal di HP.</li>
+<li><strong>Teks dan gambar yang Anda tambahkan</strong> (catatan, proyek, nama petugas/instansi, logo cap) dan pengaturan: disimpan di penyimpanan privat aplikasi di HP.</li>
 </ul>
 <h2>Koneksi jaringan</h2>
-<p>Aplikasi tidak terhubung ke internet kecuali untuk hal berikut. Tidak satu pun menerima foto Anda.</p>
+<p>Aplikasi tidak terhubung ke internet kecuali untuk hal berikut. Tidak satu pun menerima foto, video, atau suara Anda.</p>
 <ul>
 <li><strong>Alamat pada cap:</strong> bila baris alamat dinyalakan, aplikasi meminta Geocoder bawaan Android mengubah koordinat menjadi alamat. Di kebanyakan HP layanan ini disediakan Google, yang menerima koordinat sesuai <a href="https://policies.google.com/privacy">kebijakan privasi Google</a>. Matikan baris alamat untuk menghindarinya.</li>
-<li><strong>Peta kecil pada cap:</strong> bila peta dinyalakan, aplikasi mengunduh ubin peta jalan di sekitar Anda dari <a href="https://openfreemap.org">OpenFreeMap</a> (data © kontributor OpenStreetMap). Permintaan ini memperlihatkan alamat IP dan perkiraan area peta, seperti peta web pada umumnya. Matikan peta untuk menghindarinya.</li>
+<li><strong>Peta mini &amp; peta laporan PDF:</strong> bila peta dinyalakan (atau saat membuat laporan PDF selagi ada sinyal), aplikasi mengunduh ubin peta jalan di sekitar koordinat Anda dari <a href="https://openfreemap.org">OpenFreeMap</a> (data © kontributor OpenStreetMap). Permintaan ini memperlihatkan alamat IP dan perkiraan area peta, seperti peta web pada umumnya. Matikan peta mini untuk menghindarinya.</li>
+<li><strong>Pembelian Pro (Google Play Billing):</strong> bila Anda membuka atau memulihkan Datria GPS Camera Pro (sekali beli permanen), pembayaran dan status pembelian diproses langsung oleh Google Play sesuai <a href="https://policies.google.com/privacy">kebijakan privasi Google</a>. Pengembang tidak pernah melihat rincian pembayaran Anda.</li>
 </ul>
 <h2>Berbagi</h2>
 <p>Aplikasi tidak pernah membagikan foto sendiri. Saat Anda mengetuk <strong>Bagikan</strong>, menu Bagikan Android terbuka dan Anda yang memilih tujuannya. Foto yang dibagikan tetap membawa cap dan metadata lokasi, jadi bagikan hanya kepada orang yang Anda percaya.</p>
